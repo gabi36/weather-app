@@ -1,0 +1,27 @@
+.container{
+    text-align: center;
+    margin-top:30px;
+}
+
+body{
+    background:url("../assets/img5.jpg");
+    background-size: auto;
+}
+
+form input[name="city"],
+form input[name="country"]{
+    border: 0;
+    border-bottom: 2px solid whitesmoke;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+
+form input:focus{
+    box-shadow: none !important;
+    background-color: transparent !important;
+}
+
+::placeholder{
+    color: rgb(255, 255, 255);
+}
+
